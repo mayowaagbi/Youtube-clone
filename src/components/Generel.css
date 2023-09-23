@@ -1,0 +1,17 @@
+.category-btn {
+  padding: 0.5rem;
+  border-radius: 10%;
+}
+/* For desktop screens with a minimum width of 768px (adjust as needed) */
+@media screen and (min-width: 1280px) {
+  .react-player {
+    width: 100%;
+  }
+}
+
+/* For mobile screens with a maximum width of 767px (adjust as needed) */
+@media screen and (max-width: 767px) {
+  .react-player {
+    max-width: 100%;
+  }
+}
